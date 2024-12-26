@@ -1,0 +1,247 @@
+/* font-family: 'Fira Sans', sans-serif; */
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+/*FONDO*/
+
+.fondo {
+    background-image: url(../img/fondo.jpg);
+    min-height: 60rem;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* BUSCADOR */
+
+.contenido-buscar {
+    margin: 0 0;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(89, 40, 22);
+}
+
+.buscar {
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buscar input [type="text"] {
+    flex: 1 1 auto;
+    margin: 0 .5rem;
+}
+
+
+/* HEADER */
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+}
+
+.logo {
+    width: 100%;
+}
+
+.navegacion a {
+    color: rgb(237, 194, 158);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navegacion a:last-of-type {
+    margin: 0rem;
+}
+
+.navegacion a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.site-header {
+    background-color: rgb(89, 40, 22);
+    padding: 0rem 0rem 0.5rem 0rem;
+}
+
+
+/* BIENVENIDA */
+
+.imagensuperior img {
+    width: 40rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: rgb(237, 194, 158);
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 1rem;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.slogan {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/* PRODUCTOS */
+
+
+/*botones*/
+
+.botones1 {
+    color: mintcream;
+    background-color: rgb(89, 40, 22);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: block;
+    text-align: center;
+}
+
+.botones2 {
+    color: mintcream;
+    background-color: rgb(89, 40, 22);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    margin-top: 4.8rem;
+    display: block;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    align-items: center;
+}
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.centrar-texto {
+    background-color: rgb(89, 40, 22);
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 6rem;
+    color: rgb(237, 194, 158);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*productos*/
+
+.contenedor-productos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.producto {
+    flex-basis: calc(25% - 1rem);
+    background-color: rgb(255, 255, 255);
+}
+
+.contenido-anuncio {
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.contenido-anuncio h3 {
+    margin: 1rem;
+    color: rgb(112, 50, 6);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.contenido-anuncio p {
+    margin: 0;
+}
+
+.producto img {
+    width: 100%;
+}
+
+/* GALERÍA */
+.galeria {
+    display: flex;
+    justify-content: center;
+}
+
+.imggaleria {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(237, 194, 158);
+    background-size: 0.5rem;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+    background-color: rgb(89, 40, 22);
+    margin: 0;
+    padding: 2rem 5rem;
+    text-align: center;
+}
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    margin: .5rem 0rem .5rem 0rem;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avisos {
+    color: rgb(237, 194, 158);
+    text-decoration: none;
+}
+
+.copy a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.nombres {
+    margin: .5rem 0rem .5rem 0rem;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

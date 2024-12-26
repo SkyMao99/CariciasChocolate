@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caricias De Chocolate</title>
+
+<!--insercion de css-->
+    <link rel="stylesheet" href="style/stylecontactanos.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="fondo">
+
+    <!--HEADER-->
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/logo.png" class="logo" alt="logo"></a>
+                    <nav class="navegacion">
+                        <a href="index.html">Inicio</a>
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="productos.html">Productos</a>
+                        <a href="contactanos.html">Contáctanos</a>
+                    </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--FORMULARIO-->
+    <h1>Formulario de contacto</h1>
+
+    <section class="contenido-centrado contenedor seccion">
+        <form action="mailto:arielprz95@gmail.com" method="POST">
+
+           <fieldset>
+                <label>Nombre(s):</label>
+                    <input maxlength="50" name="NOMBRE" 
+                        required size="50" type="text" autofocus 
+                        placeholder="Anota tu nombre(s)"/>
+            
+
+            
+                <label>Apellido(s):</label>
+                    <input maxlength="50" name="APELLIDO(S)" 
+                        required size="50" type="text" autofocus 
+                        placeholder="Anota tu apellido(s)"/>        
+            
+
+            
+                <label>Email:</label>
+                    <input name="Email" type="email" required 
+                        placeholder="Coloca tu email"> 
+            
+
+            
+                <label>Teléfono:</label>
+                    <input name="telefono" type="tel" pattern="[0-9]{10}" required
+                    placeholder="10 dígitos">
+            
+
+            
+                <label>Fecha</label>
+                    <input name="fecha" type="date">
+            
+
+            
+                <label>Mensaje:</label>
+                    <textarea name="mensaje" cols="55" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                
+                <div>
+                <input type="submit" value="Enviar">
+                </div>
+            </fieldset> 
+
+        </form>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="site-footer">
+        <div class="contenedor contenido-footer">
+            <nav class="navegacion">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="productos.html">Productos</a>
+                <a href="contactanos.html">Contáctanos</a>
+            </nav>
+            <p class="copy">Todos los Derechos Reservados &copy; 2020.
+                <a href="avisosdeprivacidad.html" class="avisos">Aviso de privacidad</a>
+            </p>
+            <p class="nombres">Realizado por: Ariel Pérez Dzul | William Sosa Cervera | Adair Novelo Cetina</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
